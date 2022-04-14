@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>SRMU Lucknow</title>
+</head>
+<body background="C:\Users\Hp\OneDrive\Documents\SRM_WEB/violet-blurry-circles-26989-1920x1080.jpg">
+<h1><u><center><font face="CENTURY GOTHIC" color = "WHITE" size="68">SHRI RAMSWAROOP MEMORIAL UNIVERSITY</font></center></h1>
+<CENTER><FONT FACE="CENTURY GOTHIC"><TABLE CELLPADDING="50">
+<TR>
+<TD><A HREF="Home.html"><strong>HOME</strong></A></TD>
+<TD><A HREF="About Us.html"><strong>ABOUT US</strong></A></TD>
+<TD><A HREF="Gallery.html"><strong>PHOTO VALLEY</strong></A></TD>
+<TD><A HREF="Contact Us.html"><strong>CONTACT US</strong></A></TD>
+<TD><A HREF="login.html"><strong>LOGIN</strong></A></TD>
+</TR>
+</TABLE></CENTER></FONT>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+<h2><center><font face="CENTURY GOTHIC" color ="GREEN"> CONTACT US</center></h2>
+
+<div class="container">
+  <div style="text-align:center">
+    
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="C:\Users\Hp\OneDrive\Documents\SRM_WEB/LOGO_SRMU_UP_1063.png" style="width:70%">
+    </div>
+    <div class="column">
+      
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">India</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
